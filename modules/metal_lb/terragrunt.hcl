@@ -1,0 +1,3 @@
+dependencies {
+    paths = ["../namespaces", "../rbac"]
+}
