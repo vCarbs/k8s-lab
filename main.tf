@@ -2,7 +2,7 @@
 # Kubernetes Provider Configuration
 ###############################################
 provider "kubernetes" {
-  config_context_cluster = var.config_context_cluster
+  config_context_cluster = var.kubernetes_cluster_name
 }
 
 module "namespaces" {
@@ -15,8 +15,6 @@ module "rbac" {
 
 module "metal_lb" {
   source = "./modules/metal_lb"
-
-  metalip = var.metalip
 }
 
 module "traefik" {
