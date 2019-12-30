@@ -1,5 +1,3 @@
-# k8s-lab
-
 ## Overview
 
 These Terraform modules will deploy the following into a Kubernetes cluster
