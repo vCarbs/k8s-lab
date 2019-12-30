@@ -1,9 +1,9 @@
 ## Overview
 
-These Terraform modules will deploy the following into a Kubernetes cluster
-1. Metal LB
-2. Traefik 
-3. Kubernetes Dashboard
+Set of Terraform modules that will deploy the following into a Kubernetes cluster:
+- Metal LB
+- Traefik 
+- Kubernetes Dashboard
 
 ## Requirements:
 
