@@ -1,3 +1,5 @@
+variable "metalip" {}
+
 resource "kubernetes_config_map" "config" {
   metadata {
     name      = "config"
