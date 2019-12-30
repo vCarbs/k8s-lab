@@ -9,8 +9,10 @@ These Terraform modules will deploy the following into a Kubernetes cluster
 
 ## Requirements:
 
-- Terraform `brew install terraform`
-- Terragrunt `brew install terragrunt`
+- Terraform 
+`brew install terraform`
+- Terragrunt 
+`brew install terragrunt`
 
 ## Todo:
 
