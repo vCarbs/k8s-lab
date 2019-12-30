@@ -10,10 +10,6 @@ These Terraform modules will deploy the following into a Kubernetes cluster
 - Terraform `brew install terraform`
 - Terragrunt `brew install terragrunt`
 
-## Todo:
-
-- [ ] Complete readme
-
 ## Usage
 
 1. Clone this git repo `https://github.com/vCarbs/k8s-lab.git`
