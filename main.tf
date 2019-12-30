@@ -1,6 +1,5 @@
-###############################################
-# Kubernetes Provider Configuration
-###############################################
+variable "kubernetes_cluster_name" {}
+
 provider "kubernetes" {
   config_context_cluster = var.kubernetes_cluster_name
 }
